@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    
+    <!-- App name -->
+    <key>CFBundleName</key>
+    <string>Runner</string>
+    
+    <!-- App bundle identifier -->
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    
+    <!-- iOS version support -->
+    <key>MinimumOSVersion</key>
+    <string>12.0</string>
+    
+    <!-- App display name -->
+    <key>CFBundleDisplayName</key>
+    <string>Runner</string>
+    
+    <!-- Launch storyboard -->
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    
+    <!-- Flutter setup -->
+    <key>io.flutter.embedded_views_preview</key>
+    <true />
+    
+    <!-- 📷 CAMERA PERMISSION -->
+    <key>NSCameraUsageDescription</key>
+    <string>We need camera access to scan documents and QR codes.</string>
+    
+    <!-- Required for file access (YOUR PERMISSIONS) -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photos to import files.</string>
+    
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>We need access to documents to save PDFs.</string>
+    
+    <!-- Standard iOS permissions Flutter expects -->
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>fetch</string>
+      <string>processing</string>
+    </array>
+    
+    <!-- App capabilities -->
+    <key>LSRequiresIPhoneOS</key>
+    <true />
+    
+    <!-- Allowed orientations -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    
+  </dict>
+</plist>

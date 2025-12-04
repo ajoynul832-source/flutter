@@ -1,0 +1,27 @@
+dependencies:
+  flutter:
+    sdk: flutter
+
+  lucide_icons: ^0.3.0        # Icons
+  provider: ^6.1.1            # State management
+  google_fonts: ^6.1.0        # Inter font
+  file_picker: ^8.0.0         # File selection
+  image_picker: ^1.0.7        # Camera / gallery
+  intl: ^0.19.0               # Date formatting
+  shared_preferences: ^2.2.2  # Saving theme/settings
+
+  permission_handler: ^11.3.0 # Handling Android/iOS permissions
+  path_provider: ^2.1.2       # Accessing directories for saving files
+  open_file: ^3.3.2           # Opening files in native viewer
+  mime: ^1.0.4                # Detecting file types
+
+  # 📸 Camera + QR Scanner
+  camera: ^0.10.5              # Official Flutter camera plugin
+  mobile_scanner: ^5.0.0       # Fast QR code scanning
+
+  # 📄 PDF Creation + Printing
+  pdf: ^3.10.4                 # Generate PDFs
+  printing: ^5.11.0            # Export/save/share PDFs
+
+  # 🤖 NEW — HTTP for AI backend requests
+  http: ^1.2.0
